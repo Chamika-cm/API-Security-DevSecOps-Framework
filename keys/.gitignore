@@ -1,0 +1,15 @@
+# OS Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Sensitive Credentials & Environment Files
+.env
+*.pem
+*.key
+
+# Dependencies & Build Files
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
